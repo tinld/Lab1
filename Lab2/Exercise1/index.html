@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <h1>1.</h1>
+    <h2>Today is: <span id="date"></span></h2>
+    <h2>Current time is: <span id="time"></span></h2>
+    
+    <hr>
+    <h1>2.</h1>
+    <input type="text" value="Hello World" id="myInput">
+
+    <!-- The button used to copy the text -->
+    <button onclick="copyClipboard()">Copy text</button>
+
+    <hr>
+    <h1>3.</h1>
+    <input type="text" value="username=John; gfg=GeeksForGeeks; foo=education" id="http">
+
+    <button onclick="httpCookie()">Split</button>
+    <span id="httpvalue"></span>
+    <hr>
+    <h1>4.</h1>
+    <input type="text" value='{"name":"Adam","age":20}' id="json">
+
+    <button onclick="Json()">Return</button>
+    <span id="jsonvalue"></span>
+
+    <hr>
+    <h1>5.</h1>
+    <input type="text" value='{"name":"Adam","age":20}' id="jsonReturn">
+
+    <button onclick="JsonReturn()">Split</button>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.0/FileSaver.min.js" integrity="sha512-csNcFYJniKjJxRWRV1R7fvnXrycHP6qDR21mgz1ZP55xY5d+aHLfo9/FcGDQLfn2IfngbAHd8LdfsagcCqgTcQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script text="text/javascript" src="./index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
