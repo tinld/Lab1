@@ -1,11 +1,10 @@
 import React from 'react';
 import './styles/App.css';
-import Exercise2 from './Exercise2/Exercise2';
-import Exercise2_2 from './Exercise2/Exercise2_2';
-import MyInput from './Exercise3/Exercise3';
+import Exercise4_4 from './Exercise4/Exercise4_4';
+
 function App() {
   return (
-    <MyInput />
+    <Exercise4_4/>
   );
 }
 
