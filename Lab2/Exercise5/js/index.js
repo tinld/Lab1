@@ -6,5 +6,4 @@ function checkUsername(){
         document.frm.firstName.focus();
         return false;
     }
-    
 }
